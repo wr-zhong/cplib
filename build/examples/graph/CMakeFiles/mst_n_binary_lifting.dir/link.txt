@@ -1,3 +1,0 @@
-C:\msys64\ucrt64\bin\cmake.exe -E rm -f CMakeFiles\mst_n_binary_lifting.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\mst_n_binary_lifting.dir/objects.a @CMakeFiles\mst_n_binary_lifting.dir\objects1.rsp
-C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\mst_n_binary_lifting.dir/objects.a -Wl,--no-whole-archive -o mst_n_binary_lifting.exe -Wl,--out-implib,libmst_n_binary_lifting.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\mst_n_binary_lifting.dir\linkLibs.rsp
