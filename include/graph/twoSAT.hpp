@@ -1,3 +1,5 @@
+#pragma once
+
 #include "scc.hpp"
 
 #include <cassert>

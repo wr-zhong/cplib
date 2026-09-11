@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/kun37/Projects/cplib/build/cmake_install.cmake",
+		"C:/Users/kun37/Projects/cplib/build/examples/cmake_install.cmake",
+		"C:/Users/kun37/Projects/cplib/build/examples/data_structures/cmake_install.cmake",
+		"C:/Users/kun37/Projects/cplib/build/examples/graph/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

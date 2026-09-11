@@ -1,0 +1,198 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cp_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cp_lib-Debug-d5426f6b6d5702e7d52c.json",
+					"name" : "cp_lib",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-b5805d5c08fd3d92def4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "examples",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"jsonFile" : "directory-examples-Debug-f59853cb4861597f6f07.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples"
+				},
+				{
+					"build" : "examples/data_structures",
+					"jsonFile" : "directory-examples.data_structures-Debug-7577831ea933722376c8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "examples/data_structures",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						7
+					]
+				},
+				{
+					"build" : "examples/graph",
+					"jsonFile" : "directory-examples.graph-Debug-bece71769fa51ff99a63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "examples/graph",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						6,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "cp_lib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "bfs::@19ed8ce08f6ab764c6f5",
+					"jsonFile" : "target-bfs-Debug-dc90a9f13c3377c7d312.json",
+					"name" : "bfs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "binary_lifting::@19ed8ce08f6ab764c6f5",
+					"jsonFile" : "target-binary_lifting-Debug-e20bd2361009f94c552c.json",
+					"name" : "binary_lifting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "dense_flow2_BS::@19ed8ce08f6ab764c6f5",
+					"jsonFile" : "target-dense_flow2_BS-Debug-414b01c3c00d9994aaa4.json",
+					"name" : "dense_flow2_BS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "dense_flow_1::@19ed8ce08f6ab764c6f5",
+					"jsonFile" : "target-dense_flow_1-Debug-c69250d7c51d220f9933.json",
+					"name" : "dense_flow_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "dsu::@a9d02f37a10b890a49da",
+					"jsonFile" : "target-dsu-Debug-7fa1ceb3d8dfecd78d67.json",
+					"name" : "dsu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lazy_range_tree::@a9d02f37a10b890a49da",
+					"jsonFile" : "target-lazy_range_tree-Debug-296ad0dac4fd3f638cee.json",
+					"name" : "lazy_range_tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "mst_n_binary_lifting::@19ed8ce08f6ab764c6f5",
+					"jsonFile" : "target-mst_n_binary_lifting-Debug-6f4950227f5463dd5e33.json",
+					"name" : "mst_n_binary_lifting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "range_tree::@a9d02f37a10b890a49da",
+					"jsonFile" : "target-range_tree-Debug-c4002e287e8396725cfc.json",
+					"name" : "range_tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "twoSAT::@19ed8ce08f6ab764c6f5",
+					"jsonFile" : "target-twoSAT-Debug-d4f3654723f18f99d6fc.json",
+					"name" : "twoSAT",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/kun37/Projects/cplib/build",
+		"source" : "C:/Users/kun37/Projects/cplib"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

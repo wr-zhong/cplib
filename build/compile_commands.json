@@ -1,0 +1,56 @@
+[
+{
+  "directory": "C:/Users/kun37/Projects/cplib/build/examples/data_structures",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\dsu.dir\\includes_CXX.rsp -g -o CMakeFiles\\dsu.dir\\dsu.cpp.obj -c C:\\Users\\kun37\\Projects\\cplib\\examples\\data_structures\\dsu.cpp",
+  "file": "C:/Users/kun37/Projects/cplib/examples/data_structures/dsu.cpp",
+  "output": "examples/data_structures/CMakeFiles/dsu.dir/dsu.cpp.obj"
+},
+{
+  "directory": "C:/Users/kun37/Projects/cplib/build/examples/data_structures",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\range_tree.dir\\includes_CXX.rsp -g -o CMakeFiles\\range_tree.dir\\range_tree.cpp.obj -c C:\\Users\\kun37\\Projects\\cplib\\examples\\data_structures\\range_tree.cpp",
+  "file": "C:/Users/kun37/Projects/cplib/examples/data_structures/range_tree.cpp",
+  "output": "examples/data_structures/CMakeFiles/range_tree.dir/range_tree.cpp.obj"
+},
+{
+  "directory": "C:/Users/kun37/Projects/cplib/build/examples/data_structures",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\lazy_range_tree.dir\\includes_CXX.rsp -g -o CMakeFiles\\lazy_range_tree.dir\\lazy_range_tree.cpp.obj -c C:\\Users\\kun37\\Projects\\cplib\\examples\\data_structures\\lazy_range_tree.cpp",
+  "file": "C:/Users/kun37/Projects/cplib/examples/data_structures/lazy_range_tree.cpp",
+  "output": "examples/data_structures/CMakeFiles/lazy_range_tree.dir/lazy_range_tree.cpp.obj"
+},
+{
+  "directory": "C:/Users/kun37/Projects/cplib/build/examples/graph",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\dense_flow_1.dir\\includes_CXX.rsp -g -o CMakeFiles\\dense_flow_1.dir\\dense_flow_1.cpp.obj -c C:\\Users\\kun37\\Projects\\cplib\\examples\\graph\\dense_flow_1.cpp",
+  "file": "C:/Users/kun37/Projects/cplib/examples/graph/dense_flow_1.cpp",
+  "output": "examples/graph/CMakeFiles/dense_flow_1.dir/dense_flow_1.cpp.obj"
+},
+{
+  "directory": "C:/Users/kun37/Projects/cplib/build/examples/graph",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\bfs.dir\\includes_CXX.rsp -g -o CMakeFiles\\bfs.dir\\bfs.cpp.obj -c C:\\Users\\kun37\\Projects\\cplib\\examples\\graph\\bfs.cpp",
+  "file": "C:/Users/kun37/Projects/cplib/examples/graph/bfs.cpp",
+  "output": "examples/graph/CMakeFiles/bfs.dir/bfs.cpp.obj"
+},
+{
+  "directory": "C:/Users/kun37/Projects/cplib/build/examples/graph",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\binary_lifting.dir\\includes_CXX.rsp -g -o CMakeFiles\\binary_lifting.dir\\binary_lifting.cpp.obj -c C:\\Users\\kun37\\Projects\\cplib\\examples\\graph\\binary_lifting.cpp",
+  "file": "C:/Users/kun37/Projects/cplib/examples/graph/binary_lifting.cpp",
+  "output": "examples/graph/CMakeFiles/binary_lifting.dir/binary_lifting.cpp.obj"
+},
+{
+  "directory": "C:/Users/kun37/Projects/cplib/build/examples/graph",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\mst_n_binary_lifting.dir\\includes_CXX.rsp -g -o CMakeFiles\\mst_n_binary_lifting.dir\\mst_n_binary_lifting.cpp.obj -c C:\\Users\\kun37\\Projects\\cplib\\examples\\graph\\mst_n_binary_lifting.cpp",
+  "file": "C:/Users/kun37/Projects/cplib/examples/graph/mst_n_binary_lifting.cpp",
+  "output": "examples/graph/CMakeFiles/mst_n_binary_lifting.dir/mst_n_binary_lifting.cpp.obj"
+},
+{
+  "directory": "C:/Users/kun37/Projects/cplib/build/examples/graph",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\twoSAT.dir\\includes_CXX.rsp -g -o CMakeFiles\\twoSAT.dir\\twoSAT.cpp.obj -c C:\\Users\\kun37\\Projects\\cplib\\examples\\graph\\twoSAT.cpp",
+  "file": "C:/Users/kun37/Projects/cplib/examples/graph/twoSAT.cpp",
+  "output": "examples/graph/CMakeFiles/twoSAT.dir/twoSAT.cpp.obj"
+},
+{
+  "directory": "C:/Users/kun37/Projects/cplib/build/examples/graph",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\dense_flow2_BS.dir\\includes_CXX.rsp -g -o CMakeFiles\\dense_flow2_BS.dir\\dense_flow2_BS.cpp.obj -c C:\\Users\\kun37\\Projects\\cplib\\examples\\graph\\dense_flow2_BS.cpp",
+  "file": "C:/Users/kun37/Projects/cplib/examples/graph/dense_flow2_BS.cpp",
+  "output": "examples/graph/CMakeFiles/dense_flow2_BS.dir/dense_flow2_BS.cpp.obj"
+}
+]

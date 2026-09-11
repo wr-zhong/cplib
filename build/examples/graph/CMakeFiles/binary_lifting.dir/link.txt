@@ -1,0 +1,3 @@
+C:\msys64\ucrt64\bin\cmake.exe -E rm -f CMakeFiles\binary_lifting.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\binary_lifting.dir/objects.a @CMakeFiles\binary_lifting.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\binary_lifting.dir/objects.a -Wl,--no-whole-archive -o binary_lifting.exe -Wl,--out-implib,libbinary_lifting.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\binary_lifting.dir\linkLibs.rsp
