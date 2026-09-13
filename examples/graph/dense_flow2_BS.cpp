@@ -6,7 +6,7 @@
  * AC: 453ms (cp::graph::FlowNetwork)
  * 
  * 
- * if I known which cities I can get to from a city u
+ * if I know which cities I can get to from a city u
  * within time t, I can use these edges to build a flow
  * network:
  * S -> u: num Teams starting here,
@@ -25,7 +25,7 @@
  * eg, vertex num = ? input num = ?
  * 
  * Be careful when adding edges to H. S->i and to(i) -> T!
- * Can write an identiity function from(i). Reduces mistake where from(i) should be used.
+ * Can write an identity function from(i). Reduces mistake where from(i) should be used.
  * 
  * Also, always consider if the LOWER BOUND of BS can be 0!
  */
