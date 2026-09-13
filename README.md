@@ -80,6 +80,7 @@ cmake --build build
 
 ## Notes
 
-* Because the code is optimized for competitive programming workflows, some components prioritize brevity and ease of adaptation over strict adherence to general-purpose modern C++ library design practices.
-* C++20 features are used mainly in parts of the geometry and math modules; many other components use only C++17.
+* `starter.cpp` is a personal CP setup.
+* The library is designed primarily for contest use, with an emphasis on clear, readable implementations that are easy to copy and adapt for individual problems.
+* C++20 features are used mainly in the geometry and math modules. Many other components use only C++17.
 * Components are developed and refined through online judge submissions, contest use, and local experimentation.
