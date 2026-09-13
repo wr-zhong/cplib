@@ -33,8 +33,6 @@ int main() {
         int a, b, c;
         cin >> a >> b >> c;
 
-        // 显然，更通用且正确的做法是算出三者相互的dist后 考虑所有p+q-r + 1
-
         // find dist between each pair
         auto p = bl.path_query(a, b);
         auto q = bl.path_query(b, c);
