@@ -1,7 +1,5 @@
 #pragma once
 
-// #include <concepts>  // C++20
-
 namespace cp::math {
 
 /// @brief Returns the mathematical result of `a mod m`.

@@ -6,7 +6,7 @@
 namespace cp::math {
 
 /// @brief keep an `int` modulo `MOD`.
-/// @tparam MOD the modulus of type `int`.
+/// @tparam MOD the modulus of type `int`. Must be prime.
 template <int MOD>
 struct ModInt {
     int val;
@@ -116,4 +116,4 @@ struct ModInt {
     }
 };
 
-} // namespace cp::maths
+} // namespace cp::math
