@@ -1,24 +1,22 @@
 #pragma once
 
 #include <vector>
-// #include <concepts> // c++20
+#include <concepts>
 
 namespace cp::math {
 
-// c++20
-// template <class T>
-// concept MatrixElement = requires(T a, T b) {
-//     T{0};
-//     T{1};
-//
-//     { a * b } -> std::convertible_to<T>;
-//     { a + b } -> std::convertible_to<T>;
-// }
+template <class T>
+concept MatrixElement = requires(T a, T b) {
+    T{0};
+    T{1};
+
+    { a * b } -> std::convertible_to<T>;
+    { a + b } -> std::convertible_to<T>;
+};
 
 // Implementation for square matrices.
 // class `T` has to support `*`, `+`, `+=`, `T{1}`. eg, `cp::maths::ModInt`
-// template <MatrixElement T = long long> // c++20
-template <class T = long long>
+template <MatrixElement T = long long>
 struct Matrix {
     int n_;
     std::vector<std::vector<T>> entries_;
