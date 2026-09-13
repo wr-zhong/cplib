@@ -1,5 +1,6 @@
 #pragma once
 
+#include <algorithm>
 #include <vector>
 #include <cassert>
 
@@ -184,11 +185,11 @@ void LazyRangeTree<T>::range_add(
     int mid = cl + (cr - cl) / 2;
 
     if (left < mid) {
-        range_add(left, min(right, mid), value, node * 2, cl, mid);
+        range_add(left, std::min(right, mid), value, node * 2, cl, mid);
     }
 
     if (right > mid) {
-        range_add(max(left, mid), right, value, node * 2 + 1, mid, cr);
+        range_add(std::max(left, mid), right, value, node * 2 + 1, mid, cr);
     }
 
     // pull up: calculate parent after children have been updated.
