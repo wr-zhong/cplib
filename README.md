@@ -20,7 +20,7 @@ The library is designed primarily for contest use, with an emphasis on clear, re
 * Dijkstra, Bellman-Ford and Floyd-Warshall
 * MST (Kruskal)
 * Strongly connected components and 2-SAT
-* Topological sorting
+* Topological sort and graph DP
 * Articulation points and bridges
 * Binary lifting (LCA)
 * Flow network (Dinic) and utilities
