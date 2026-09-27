@@ -2,6 +2,7 @@
 
 #include "edges.hpp"    // struct AdjEdge { int to, w; };
 
+#include <algorithm>
 #include <functional>
 #include <queue>
 #include <vector>
