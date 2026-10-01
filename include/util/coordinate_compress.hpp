@@ -1,4 +1,25 @@
-// TODO: change to template.
+#include <set>
+#include <map>
+
+auto copy() {
+// you might need ll.
+set<int> xcoord;    // filled
+
+
+// compress x
+map<int, int> getid;    // [xcooord -> id]
+vector<int> getx;       // getx[id] = xcoord
+int cnt = 0;
+for (auto x : xcoord) {
+    getx[cnt] = x;
+    getid[x] = cnt++;
+}
+
+
+} // copy
+
+
+// ATTRIB.: BELOW IS LECTURE CODE.
 
 // no map from val to coord.
 // only idx -> coord.
